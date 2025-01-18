@@ -1,0 +1,26 @@
+table{
+    border: 2px solid black;
+    
+}
+table thead{
+   background-color: skyblue;
+ 
+}
+table th{
+    padding: 20px;
+    font-size: 40px;
+
+}
+tbody {
+    border: 2px solid red;
+}
+ tbody tr{
+    background-color: bisque;
+   
+}
+tbody td{
+    padding: 40px;
+}
+tr:nth-child(even){
+    background-color: yellow;
+}
