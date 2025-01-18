@@ -6,10 +6,47 @@
     <title>Forms
 
     </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<Form class="flex">
+
+    <label for="name" >First Name</label>
+    <input type="text" id="name"  name="first_name">
+    <label for="last" >Last Name</label>
+    <input type="text" id="last" name="last_name">
+    <label for="mail" >Gmail</label>
+    <input type="mail" id="mail" name="gmail">
+    <label for="number" >Phn. No.</label>
+    <input type="text" id="number" name="number">
+
+    <p class="selection">Gender Selection</p>
+   
+    <label for="male-data">Male </label>
+    <input type="radio" name="gender" value="male" id="male-data">
+   
+    <label for="female-data">Female </label>
+    <input type="radio" name="gender" value="female" id="female-data">
+    
+    <label for="others-data">Others </label>
+    <input type="radio" name="gender" value="others" id="others-data">
+    <button style="width: 200px; height: 40px;
+     background-color: brown; border: none;  color: white; margin: 20px; cursor: pointer;">Submit</button>
+
+
+<label for="country">Select your country</label>
+<select name="country" id="country">
+    please select your country
+
+    <option value="">india</option>
+    <option>INDONESIA</option>
+    <option>AMERICA</option>
+</select>
+</Form>
 
     
+
+
     
 </body>
 </html>
